@@ -1,0 +1,36 @@
+C:\Users\abhyodaysingh\Test Project\BookBorrowingApp\Domain\bin\Debug\net5.0\Domain.deps.json
+C:\Users\abhyodaysingh\Test Project\BookBorrowingApp\Domain\bin\Debug\net5.0\Domain.dll
+C:\Users\abhyodaysingh\Test Project\BookBorrowingApp\Domain\bin\Debug\net5.0\ref\Domain.dll
+C:\Users\abhyodaysingh\Test Project\BookBorrowingApp\Domain\bin\Debug\net5.0\Domain.pdb
+C:\Users\abhyodaysingh\Test Project\BookBorrowingApp\Domain\obj\Debug\net5.0\Domain.csproj.AssemblyReference.cache
+C:\Users\abhyodaysingh\Test Project\BookBorrowingApp\Domain\obj\Debug\net5.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\abhyodaysingh\Test Project\BookBorrowingApp\Domain\obj\Debug\net5.0\Domain.AssemblyInfoInputs.cache
+C:\Users\abhyodaysingh\Test Project\BookBorrowingApp\Domain\obj\Debug\net5.0\Domain.AssemblyInfo.cs
+C:\Users\abhyodaysingh\Test Project\BookBorrowingApp\Domain\obj\Debug\net5.0\Domain.csproj.CoreCompileInputs.cache
+C:\Users\abhyodaysingh\Test Project\BookBorrowingApp\Domain\obj\Debug\net5.0\Domain.dll
+C:\Users\abhyodaysingh\Test Project\BookBorrowingApp\Domain\obj\Debug\net5.0\ref\Domain.dll
+C:\Users\abhyodaysingh\Test Project\BookBorrowingApp\Domain\obj\Debug\net5.0\Domain.pdb
+C:\Users\abhyodaysingh\Test Project\BookBorrowingApp\BookBorrowingApp\Domain\bin\Debug\net5.0\Domain.deps.json
+C:\Users\abhyodaysingh\Test Project\BookBorrowingApp\BookBorrowingApp\Domain\bin\Debug\net5.0\Domain.dll
+C:\Users\abhyodaysingh\Test Project\BookBorrowingApp\BookBorrowingApp\Domain\bin\Debug\net5.0\ref\Domain.dll
+C:\Users\abhyodaysingh\Test Project\BookBorrowingApp\BookBorrowingApp\Domain\bin\Debug\net5.0\Domain.pdb
+C:\Users\abhyodaysingh\Test Project\BookBorrowingApp\BookBorrowingApp\Domain\obj\Debug\net5.0\Domain.csproj.AssemblyReference.cache
+C:\Users\abhyodaysingh\Test Project\BookBorrowingApp\BookBorrowingApp\Domain\obj\Debug\net5.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\abhyodaysingh\Test Project\BookBorrowingApp\BookBorrowingApp\Domain\obj\Debug\net5.0\Domain.AssemblyInfoInputs.cache
+C:\Users\abhyodaysingh\Test Project\BookBorrowingApp\BookBorrowingApp\Domain\obj\Debug\net5.0\Domain.AssemblyInfo.cs
+C:\Users\abhyodaysingh\Test Project\BookBorrowingApp\BookBorrowingApp\Domain\obj\Debug\net5.0\Domain.csproj.CoreCompileInputs.cache
+C:\Users\abhyodaysingh\Test Project\BookBorrowingApp\BookBorrowingApp\Domain\obj\Debug\net5.0\Domain.dll
+C:\Users\abhyodaysingh\Test Project\BookBorrowingApp\BookBorrowingApp\Domain\obj\Debug\net5.0\ref\Domain.dll
+C:\Users\abhyodaysingh\Test Project\BookBorrowingApp\BookBorrowingApp\Domain\obj\Debug\net5.0\Domain.pdb
+D:\ishu\Web Development\BookBorrowingApp\Abhyoday Singh_Batch 01-Mar-23\BookBorrowingApp\Domain\bin\Debug\net5.0\Domain.deps.json
+D:\ishu\Web Development\BookBorrowingApp\Abhyoday Singh_Batch 01-Mar-23\BookBorrowingApp\Domain\bin\Debug\net5.0\Domain.dll
+D:\ishu\Web Development\BookBorrowingApp\Abhyoday Singh_Batch 01-Mar-23\BookBorrowingApp\Domain\bin\Debug\net5.0\Domain.pdb
+D:\ishu\Web Development\BookBorrowingApp\Abhyoday Singh_Batch 01-Mar-23\BookBorrowingApp\Domain\obj\Debug\net5.0\Domain.csproj.AssemblyReference.cache
+D:\ishu\Web Development\BookBorrowingApp\Abhyoday Singh_Batch 01-Mar-23\BookBorrowingApp\Domain\obj\Debug\net5.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\ishu\Web Development\BookBorrowingApp\Abhyoday Singh_Batch 01-Mar-23\BookBorrowingApp\Domain\obj\Debug\net5.0\Domain.AssemblyInfoInputs.cache
+D:\ishu\Web Development\BookBorrowingApp\Abhyoday Singh_Batch 01-Mar-23\BookBorrowingApp\Domain\obj\Debug\net5.0\Domain.AssemblyInfo.cs
+D:\ishu\Web Development\BookBorrowingApp\Abhyoday Singh_Batch 01-Mar-23\BookBorrowingApp\Domain\obj\Debug\net5.0\Domain.csproj.CoreCompileInputs.cache
+D:\ishu\Web Development\BookBorrowingApp\Abhyoday Singh_Batch 01-Mar-23\BookBorrowingApp\Domain\obj\Debug\net5.0\Domain.dll
+D:\ishu\Web Development\BookBorrowingApp\Abhyoday Singh_Batch 01-Mar-23\BookBorrowingApp\Domain\obj\Debug\net5.0\refint\Domain.dll
+D:\ishu\Web Development\BookBorrowingApp\Abhyoday Singh_Batch 01-Mar-23\BookBorrowingApp\Domain\obj\Debug\net5.0\Domain.pdb
+D:\ishu\Web Development\BookBorrowingApp\Abhyoday Singh_Batch 01-Mar-23\BookBorrowingApp\Domain\obj\Debug\net5.0\ref\Domain.dll

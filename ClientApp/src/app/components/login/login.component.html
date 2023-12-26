@@ -1,0 +1,35 @@
+<div class="container">
+    <div class="form-container shadow bg-body rounded">
+      <div class="form-head">
+        <h3>Login</h3>
+      </div>
+      <hr />
+      <form [formGroup]="loginForm" (ngSubmit)="login()">
+        <div class="form-group">
+          <input
+            type="email"
+            formControlName="email"
+            placeholder="Email address"
+          />
+        </div>
+        <div class="form-group">
+          <input
+            type="password"
+            formControlName="password"
+            placeholder="Password"
+          />
+        </div>
+        <div class="btn-container">
+          <input
+            class="btn btn-md btn-primary px-5"
+            type="submit"
+            value="login"
+          />
+        </div>
+        <div class="error-container" *ngFor="let error of errors">
+          <p class="text-danger">{{ error }}</p>
+        </div>
+      </form>
+    </div>
+  </div>
+  

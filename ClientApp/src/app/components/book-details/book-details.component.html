@@ -1,0 +1,19 @@
+<div class="card book-card">
+    <div class="card-body">
+        <h3 class="card-title">{{book.name}}</h3>
+        <p class="card-text text-secondary"><strong>Genre: </strong>{{book.genre}}</p>
+        <p class="card-text text-secondary"><strong>Rating: </strong>{{book.rating}}/5</p>
+        <p *ngIf="book.isAvailable" class="text-success availability">Available</p>
+        <p *ngIf="!book.isAvailable" class="text-danger availability">Not Available</p>
+        <p class="card-text description">
+            {{book.description}}
+        </p>
+        <p class="card-text"><strong>Author: </strong>{{book.author}}</p>
+        <p class="card-text"><strong>Lent By User: </strong>{{book.lentByUserId}}</p>
+        <p class="card-text" *ngIf="book.borrowedByUserId"><strong>Borrowed By User: </strong>{{book.borrowedByUserId}}</p>
+        <button class="btn btn-black borrow-btn" [disabled]="disableBorrowBtn()" [hidden]="hideBorrowBtn()" (click)="borrow()">Borrow</button>
+        <button class="btn btn-danger return-btn" (click)="return()" [disabled]="disableReturnBtn()" [hidden]="hideReturnBtn()">Return</button>
+
+      </div>
+      
+</div>

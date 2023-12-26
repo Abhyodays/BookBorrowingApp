@@ -1,0 +1,50 @@
+nav {
+    margin-bottom: 50px;
+  }
+  .navbar-brand {
+    cursor: pointer;
+  }
+  .in-login {
+    display: flex;
+    align-items: center;
+    height: 100%;
+  }
+  .btn {
+    margin: 0;
+  }
+  .user-name {
+    margin: auto 20px;
+  }
+  .logout {
+    margin: 0;
+  }
+  .token-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .logout-container{
+    position: absolute;
+    right: 30px;
+  }
+  .login{
+    position: absolute;
+    right: 30px;
+    bottom: 10px;
+  }
+  .token-icon{
+    height: 40px;
+  }
+  .token-count{
+    font-weight: bold;
+    color: green;
+  }
+  @media screen and (max-width: 990px) {
+    .user-name {
+      margin-left: 0px;
+    }
+    .logout {
+      right: auto;
+    }
+  }
+  

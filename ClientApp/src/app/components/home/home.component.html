@@ -1,0 +1,8 @@
+
+<div class="search-container">
+    <input class="search-input" type="text" [(ngModel)]="searchKeyword" (input)="filterBooks()"
+        placeholder="Search by Name, Author or Genre">
+</div>
+<div>
+    <app-book-card *ngFor="let book of filterBooks()" [book]="book"></app-book-card>
+</div>

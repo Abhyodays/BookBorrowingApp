@@ -1,0 +1,86 @@
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" (click)="goToHome()">BOOK BORROWING APP</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <h4
+            *ngIf="isLoggedIn(); then loggedInTemplate; else loggedOutTemplate"
+          ></h4>
+          <ng-template #loggedInTemplate>
+            <li class="nav-item">
+              <div class="in-login">
+                <p class="user-name">{{ name }}</p>
+              </div>
+            </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  routerLink="books/add"
+                  >Add Book</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  routerLink="books/lented"
+                  >Lented Books</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  routerLink="books/borrowed"
+                  >Borrowed Books</a
+                >
+              </li>
+              
+            </ng-template>
+          <ng-template #loggedOutTemplate>
+            <li class="nav-item">
+              <!-- <a class="nav-link active" aria-current="page" 
+              routerLink="login"
+                >Login</a
+              > -->
+              
+              <button
+              class="btn btn-success login"
+              (click)="login()"
+            >
+              Login
+            </button>
+            </li>
+          </ng-template>
+          <li class="nav-item" 
+          *ngIf="isLoggedIn()">
+            <div class="btn-container logout-container">
+              <div class="token-container">
+                <img class="token-icon" src="/assets/images/coin_icon.png" alt="">
+                <span class="token-count">{{tokenCount}}</span>
+              </div>
+              <button
+              class="btn btn-danger logout"
+              (click)="logout()"
+            >
+              Logout
+            </button>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  

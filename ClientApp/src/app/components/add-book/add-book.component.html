@@ -1,0 +1,63 @@
+<div class="container">
+    <form class="form" [formGroup]="bookForm" (ngSubmit)="save()">
+      <h3 class="form-head">Add Book</h3>
+      <div class="input com-md-6">
+        <label for="name" class="form-label">Name</label>
+        <input
+          id="name"
+          type="text"
+          class="form-control"
+          formControlName="name"
+        />
+      </div>
+      <div class="input com-md-6">
+        <label for="author" class="form-label">Author</label>
+        <input
+          id="author"
+          type="text"
+          class="form-control"
+          formControlName="author"
+        />
+      </div>
+      <div class="input com-md-6">
+        <label for="rating" class="form-label">Rating</label>
+        <input
+          id="rating"
+          type="number"
+          class="form-control"
+          formControlName="rating"
+        />
+      </div>
+      <div class="input com-md-6">
+        <label for="genre" class="form-label">Genre</label>
+        <input
+          id="genre"
+          type="text"
+          class="form-control"
+          formControlName="genre"
+        />
+      </div>
+      <div class="input com-md-6">
+        <label for="description" class="form-label">Description</label>
+        <textarea
+          id="description"
+          type="text"
+          class="form-control"
+          formControlName="description"
+        >
+        </textarea>
+      </div>
+      <div class="btn-container">
+        <input type="submit" value="Save" class="btn btn-primary" />
+        <input
+          type="button"
+          class="btn btn-danger"
+          (click)="cancel()"
+          value="Cancel"
+        />
+      </div>
+      <div class="error-container" *ngFor="let error of errors">
+        <p class="text-danger">{{ error }}</p>
+      </div>
+    </form>
+</div>
